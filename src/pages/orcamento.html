@@ -1,0 +1,144 @@
+orcamento|Solicite um orçamento — Alpro Engenharia|Solicite um orçamento para administração de obra em Campinas e região, reforma de alto padrão em São Paulo ou qualquer outro tipo de obra. Retorno de um engenheiro da Alpro.
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Início</a> / Orçamento</div>
+    <span class="eyebrow">Orçamentos</span>
+    <h1>Conte sobre a sua obra. Um engenheiro responde.</h1>
+    <p>Administração de obra, reforma de alto padrão ou qualquer outro projeto — preencha o formulário e retornamos com os próximos passos.</p>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="container form-wrap">
+    <form class="form reveal" data-lead-form data-title="Solicitação de orçamento pelo site" novalidate>
+      <div class="form-body">
+        <fieldset>
+          <legend>1. Qual serviço você procura?</legend>
+          <div class="choices">
+            <div class="choice">
+              <input type="radio" name="servico" id="s-admin" value="admin" checked>
+              <label for="s-admin"><strong>Administração de obra</strong><span>Construção residencial em Campinas e região</span></label>
+            </div>
+            <div class="choice">
+              <input type="radio" name="servico" id="s-reforma" value="reforma">
+              <label for="s-reforma"><strong>Reforma de alto padrão</strong><span>Apartamentos, estúdios e escritórios em São Paulo</span></label>
+            </div>
+            <div class="choice">
+              <input type="radio" name="servico" id="s-outro" value="outro">
+              <label for="s-outro"><strong>Outra obra</strong><span>Qualquer tipo de projeto — fale com a gente</span></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>2. Seus dados</legend>
+          <div class="form-grid">
+            <div class="field full">
+              <label for="nome">Nome completo</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" required>
+              <div class="err">Informe seu nome.</div>
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone / WhatsApp</label>
+              <input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(00) 00000-0000" required>
+              <div class="err">Informe um telefone para contato.</div>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <div class="err">Informe um e-mail válido.</div>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>3. Sobre a obra</legend>
+          <div class="form-grid">
+            <div class="field">
+              <label for="cidade">Cidade da obra</label>
+              <select id="cidade" name="cidade" required>
+                <option value="">Selecione</option>
+                <option>Campinas</option>
+                <option>Região de Campinas</option>
+                <option>São Paulo</option>
+                <option>Outra cidade</option>
+              </select>
+              <div class="err">Selecione a cidade.</div>
+            </div>
+            <div class="field">
+              <label for="tipo">Tipo de imóvel</label>
+              <select id="tipo" name="tipo">
+                <option value="">Selecione</option>
+                <option>Casa em condomínio</option>
+                <option>Casa de rua</option>
+                <option>Apartamento / cobertura</option>
+                <option>Estúdio</option>
+                <option>Escritório / comercial</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="metragem">Metragem aproximada <span class="opt">(opcional)</span></label>
+              <input id="metragem" name="metragem" type="text" placeholder="Ex.: 350 m²">
+            </div>
+            <div class="field">
+              <label for="fase">Fase do projeto</label>
+              <select id="fase" name="fase">
+                <option value="">Selecione</option>
+                <option>Ainda sem projeto</option>
+                <option>Projeto de arquitetura em andamento</option>
+                <option>Projeto aprovado</option>
+                <option>Obra já iniciada</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="prazo">Quando pretende começar? <span class="opt">(opcional)</span></label>
+              <select id="prazo" name="prazo">
+                <option value="">Selecione</option>
+                <option>O quanto antes</option>
+                <option>Em até 3 meses</option>
+                <option>Entre 3 e 6 meses</option>
+                <option>Acima de 6 meses</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="mensagem">Conte um pouco sobre o projeto</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Descreva o que você precisa, expectativas de prazo, investimento, dúvidas..."></textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn btn--dark" style="width:100%">Enviar solicitação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-note">Ao enviar, abriremos uma conversa no WhatsApp com os dados preenchidos. Seus dados são usados apenas para responder a esta solicitação.</p>
+      </div>
+      <div class="form-success" role="status">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <h3>Solicitação pronta!</h3>
+        <p class="muted">Abrimos o WhatsApp com a sua mensagem — é só tocar em enviar. Se preferir, use uma das opções abaixo.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="#" data-wa-link target="_blank" rel="noopener" class="btn btn--primary">Abrir WhatsApp novamente</a>
+          <a href="mailto:anselmo.lima@alpro.com.br" data-mailto class="btn btn--outline">Enviar por e-mail</a>
+        </div>
+      </div>
+    </form>
+
+    <aside>
+      <div class="aside-box reveal">
+        <h3>O que acontece depois?</h3>
+        <ul class="checklist mb-0" style="margin-top:12px">
+          <li>Nossa engenharia analisa a sua solicitação</li>
+          <li>Entramos em contato para entender os detalhes</li>
+          <li>Agendamos uma visita técnica, se necessário</li>
+          <li>Você recebe uma proposta clara e detalhada</li>
+        </ul>
+      </div>
+      <div class="aside-box light reveal">
+        <h3>Prefere falar agora?</h3>
+        <p>Atendemos por telefone e WhatsApp:</p>
+        <p class="mb-0"><a href="tel:+5519997738131"><strong>(19) 99773-8131</strong></a><br><a href="tel:+5511941726270"><strong>(11) 94172-6270</strong></a></p>
+      </div>
+    </aside>
+  </div>
+</section>
